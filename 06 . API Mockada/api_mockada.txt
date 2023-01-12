@@ -1,0 +1,5 @@
+Está API será usada para simular a base de dados da SINESP.
+
+Por que estamos utilizando ela?
+
+- Durante o desnvlvimento do projeto, descobrimos a inviábilidade de utilizar aquela base de dados devido a instabilidade e falta de padronização de dados;

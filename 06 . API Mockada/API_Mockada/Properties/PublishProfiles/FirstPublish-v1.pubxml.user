@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\fic\Desktop\Publish-v1</_PublishTargetUrl>
+    <History>True|2021-12-07T11:09:55.8414026Z;True|2021-12-07T08:03:44.1678544-03:00;</History>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="API_Mockada.Contexts.MockadaContext">
+      <Value>
+      </Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

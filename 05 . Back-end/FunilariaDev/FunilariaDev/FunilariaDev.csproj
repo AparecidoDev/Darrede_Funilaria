@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Resources\Images\NovaPasta\**" />
+    <Compile Remove="Resources\NovaPasta\**" />
+    <Content Remove="Resources\Images\NovaPasta\**" />
+    <Content Remove="Resources\NovaPasta\**" />
+    <EmbeddedResource Remove="Resources\Images\NovaPasta\**" />
+    <EmbeddedResource Remove="Resources\NovaPasta\**" />
+    <None Remove="Resources\Images\NovaPasta\**" />
+    <None Remove="Resources\NovaPasta\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Core" Version="1.6.0" />
+    <PackageReference Include="Flunt" Version="2.0.5" />
+    <PackageReference Include="Google.Apis" Version="1.55.0" />
+    <PackageReference Include="Google.Apis.Storage.v1" Version="1.55.0.2482" />
+    <PackageReference Include="Google.Apis.Vision.v1" Version="1.55.0.2412" />
+    <PackageReference Include="Google.Cloud.Storage.V1" Version="3.6.0" />
+    <PackageReference Include="Google.Cloud.Vision.V1" Version="2.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.14.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\Images\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+    <UserSecretsId>ceeea1d4-14ea-4583-af54-38f733e309e4</UserSecretsId>
+  </PropertyGroup>
+
+</Project>

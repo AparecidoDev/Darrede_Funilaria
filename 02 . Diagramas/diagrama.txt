@@ -1,0 +1,7 @@
+Diagramas criados para auxiliar na confecção do API e da Aplicação como um todo.
+
+* Diagramas presentes nesta pasta *
+
+- Diagrama de classes: Modelo lógico e físico.
+
+- Diagrama de casos de uso

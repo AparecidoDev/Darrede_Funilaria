@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "funilariadev",
+  "private_key_id": "39a31cb31c43c8cfe7d1c1e611d5a1ad73a14739",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDXWTUj1BnYheGq\niZOYG44376HEGSiPjoEIlBqNbssHTIpw11J3oPO4RgcnQBEDtTiDLQNmojjRHhNM\nao6BpFULEaJfWBy7SFm/6F9iSS7h+ABhF8ap6Y8/rc49odtEOa9D7onxwQmLodQp\nnBesc+BpkZuRSwMW3F21yl6RGxIm70zN2ZxqGsLgKsPz+I1mKGPTDhVGv2S1bo81\nlLJERi381rKrJERHBYaT3MtAyBQt4NY3x8kuWok/SgsjCDhB+QwvY6cQqukgI3kt\nnUolFSHTNmB2Z5o3zgXAZACGAFc9m8mLhEWTtS6WHOFLcCV/up/kuDPjMDraeowq\nawILVfHtAgMBAAECggEAA+gta6H8eg4rwvFOCTNuyBsD30/piXk3ZBVzyd8Ztd8w\nn814RI1Z/pzeolqqNFwEU3Tsm98Tks+t3/QK89Usac//FyW9F7S/VBj+KgVT4Wuj\nbh+FTi3bmHcpx7p5BOrbACuCuy0aZDsiY0LetxU/HAs1PFSVEMQcuyCZyJ4qHSSv\nxe+XPSDPmQZUls4xBeKsdySJqoZ0+ZRkiA+sMNnacpSzda9VWkASIogq+yR/syrR\nCnJzENbaWfKkZpkROskqUbxVg8xbxWLVrxNwRQ44rAa/g+AMMAWu8Wn1g+Sv3Hlj\n/73JHbldDk0WguFBYuv+junkO6jdOp8+g1PA+s2NDQKBgQDsjrEtVAl5C7hsy1US\n7H+Hm32i7MtcEkbf3ahvTvvTJjxNq5CIpgm7jEvt+lJwtkGle3YH+6NUfEC/z9Pi\n3og43o29yEqMmWoD+2irgJxP/84kFJ5RMWQiVPfWz3EdrpMOZ/8Ml2dhJ1j7hcjC\nflwpCe7ZWBUAWtuXnQEsizArrwKBgQDpDERi38yqG4Nu0DHVUXZnISvwgflPCOqD\nidSGBW3Q8sa9MO1K5cpnpKy+a2OWMKy1vRM0ilzzkRYjOemovm44GcqpTtzmzu/q\nV6SBQRwUu6IJb3HbazR/7UYRoWp1z1tOmHp86a8rKdYGEzbwbIKIUHZtzWZlBk0c\nC7281fDXIwKBgQCuLXa5uHntHbsiqCiw8WAJemzsjMxDs9Vpumzt4Es9spaOXffj\nFdZuuKOjyz/ua9Q0Q46p3Bfr+j02vpD2KAJHVV8qURLLKZ7M5c2xEdaGdQTUvjW/\n9M0VFlkSWtWgFE2FOv+pxsVA3NcBBAXJZ372XLD4aYm1JDEyFlGp+aZzUwKBgQCs\nkWHeWVyDJiZ4GwCbtlvX2A9iY8xJww9s4dYWe9SqoeuaUq2UBX6Qqrcjtf+jSl3J\nob2j7UURMwFSimLEimaxch/IqVYYL2omfEmbUKxLifldxUFpOgRBKmD1UzKzFB3H\noE8rShtk+fC6xOWsuJ0b9YEMo8lLy5OzzdntB/r0QwKBgHhk6Q+rTWDWgzEGLPsM\nImf1O1Ii8kx6IqePIe2ntXKwUA9B2OsMrC+haEY5aBAloANRMKTBzgEzkHKc2Fzh\nYeVSDKH0b6lRxF9bsGULLv1sBrTFt+YA8WYoh8wFEMDNV7Sds7JY+M4cQLseKeOx\nhp6veQQq+kBmiixT7I50Qld5\n-----END PRIVATE KEY-----\n",
+  "client_email": "admvision@funilariadev.iam.gserviceaccount.com",
+  "client_id": "118434170508844706602",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/admvision%40funilariadev.iam.gserviceaccount.com"
+}

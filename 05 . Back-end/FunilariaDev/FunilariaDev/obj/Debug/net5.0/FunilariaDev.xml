@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FunilariaDev</name>
+    </assembly>
+    <members>
+        <member name="T:FunilariaDev.Context.FunilariaContext">
+            <Sumary>
+            Classe responsável pelo contexto do projeto
+            faz a cominicação com a Apie e o banco de dados
+            </Sumary>
+        </member>
+        <member name="M:FunilariaDev.Context.FunilariaContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">
+            <Sumary>
+            Define as Opções  de construção do banco de dados 
+            </Sumary>
+            <param name="optionsBuilder"> Objeto com as configurações  definidas </param>
+        </member>
+        <member name="M:FunilariaDev.Controllers.AnalyzeController.AnalyzeImage">
+            <summary>
+            Method responsible for analyzing the image that the user registered in the system, thus returning the plate value
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.BrandController.Get">
+            <summary>
+            This method is responsible for listing all brands registered in the system. Only the administrator has access to this data.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.BrandController.Post(FunilariaDev.Domains.Brand)">
+            <summary>
+            This method is responsible for registering new brands
+            </summary>
+            <param name="newBrand"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.BrandController.Update(System.Int32,FunilariaDev.Domains.Brand)">
+            <summary>
+            This method is responsible for updating the vehicle brands based on the ID that is informed and new parameters for a given brand. Only the administrator can change this information.
+            </summary>
+            <param name="Id"></param>
+            <param name="brandUpdated"></param>
+        </member>
+        <member name="M:FunilariaDev.Controllers.BrandController.Delete(System.Int32)">
+            <summary>
+            This method is responsible for deleting a model by the ID informed by the administrator. Only the System Administrator has access.
+            </summary>
+        </member>
+        <member name="M:FunilariaDev.Controllers.BudgetController.Get">
+            <summary>
+            This method is responsible for listing all budgets registered in the system. Only the administrator has access to this data.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.BudgetController.Post(FunilariaDev.Domains.Budget)">
+            <summary>
+            Method responsible for registering new budgets, having as a parameter a previously registered service, vehicle model and estimated value
+            </summary>
+            <param name="newBudget"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.BudgetController.Put(System.Int32,FunilariaDev.Domains.Budget)">
+            <summary>
+            Method responsible for updating registered budgets. Only the administrator has access to this method.
+            </summary>
+            <param name="Id"></param>
+            <param name="budgetUpdated"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.BudgetController.Delete(System.Int32)">
+            <summary>
+            This method must delete a budget based on the id provided by the administrator
+            </summary>
+        </member>
+        <member name="M:FunilariaDev.Controllers.BudgetController.GetBudget(System.Int32)">
+            <summary>
+            In theory this method should return a budget based on the customer's car model, making a search in the database and returning the object with the value and the problem
+            </summary>
+        </member>
+        <member name="M:FunilariaDev.Controllers.CarController.Get">
+            <summary>
+            Method responsible for listing all vehicles registered in the system. Only the administrator has access to this data.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.CarController.Post(FunilariaDev.Domains.Car)">
+            <summary>
+            Method responsible for registering users' cars in the database. Only the customer has access to this method.
+            </summary>
+            <param name="newCar"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.CarController.Put(System.Int32,FunilariaDev.Domains.Car)">
+            <summary>
+            Method responsible for updating customer vehicle information. Only the customer has access to this method.
+            </summary>
+            <param name="Id"></param>
+            <param name="carUpdated"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.CarController.Delete(System.Int32)">
+            <summary>
+            Method responsible for delete cars informed by the id that the customer or administrator selects
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.CarController.GetMyCar(System.Int32)">
+            <summary>
+            Method responsible for listing cars of the user logged into the system
+            </summary>
+            <param name="idUser"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.LoginController.Login(FunilariaDev.ViewModel.LoginViewModel)">
+            <summary>
+            Validate a User according to email and password
+            </summary>
+            <param name="login"></param>
+            <returns>A Token with User information or a NotFound(400) status code with a custom error message</returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.ModelController.Get">
+            <summary>
+            This method is responsible for listing all models registered in the system. Only the administrator has access to this data.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.ModelController.Post(FunilariaDev.Domains.Model)">
+            <summary>
+            This method is responsible for registering new models based on the brands previously registered by the administrator
+            </summary>
+            <param name="newModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.ModelController.Update(System.Int32,FunilariaDev.Domains.Model)">
+            <summary>
+            This method is responsible for updating the vehicle models based on the ID that is informed and new parameters for a given model. Only the administrator can change this information.
+            </summary>
+            <param name="Id"></param>
+            <param name="modelUpdated"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.ModelController.Delete(System.Int32)">
+            <summary>
+            This method is responsible for deleting a model by the ID informed by the administrator. Only the System Administrator has access.
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.ServiceController.Post(FunilariaDev.Domains.Service)">
+            <summary>
+            This method is responsible for registering a service to be used as a parameter for the Pre-Budget. Only the Administrator has access to this method.
+            </summary>
+            <param name="newService"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.ServiceController.Update(System.Int32,FunilariaDev.Domains.Service)">
+            <summary>
+            This method is responsible for updating a previously registered service and is identified by the ID and its new past data callable inputs. Only the Administrator can update.
+            </summary>
+            <param name="Id"></param>
+            <param name="newService"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.ServiceController.Delete(FunilariaDev.Domains.Service)">
+            <summary>
+            This method is responsible for deleting a registered service that is identified through the ID that is informed. Only the Administrator has access to this method.
+            </summary>
+            <param name="newService"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.ServiceController.Get">
+            <summary>
+            This method is responsible for listing all services registered in the system. Only the administrator has access to this data.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.UserController.PostUser(FunilariaDev.Domains.User)">
+            <summary>
+            This method is responsible for registering and processing user information and registering in the database
+            </summary>
+            <param name="user"></param>
+            <returns>StatusCode 200</returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.UserController.Get">
+            <summary>
+             This method is responsible for listing all users registered in the system. (Only the administrator has access to this information such as: Name, Email and Phone)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.UserController.GetPath(System.Int32)">
+            <summary>
+            This method is responsible for searching the user image by the ID of the user who is logged in.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.UserController.GetEmail(System.String)">
+            <summary>
+            This method is responsible for searching the email of the user that was informed at login time.
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.UserController.Account(System.Int32)">
+            <summary>
+            This method is responsible for looking up all the information for a particular user. Used to fetch logged user information.
+            </summary>
+            <param name="idUser"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.UserController.GetPlate(System.Int32)">
+            <summary>
+            To use the AI ​​method it is necessary to put the credentials in PowerShell or Cmd
+            </summary>
+            <param name="idUser"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.UserController.DeleteUser(System.Int32)">
+            <summary>
+            This method is responsible for deleting a user by the ID that is informed by the Administrator or Customer
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Controllers.UserController.Update(FunilariaDev.Domains.User,System.Int32)">
+            <summary>
+            This method is responsible for updating a user through the ID and the new data that they want to be updated. Only a customer can change their information.
+            </summary>
+            <param name="userUpdated"></param>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FunilariaDev.Interfaces.IUserRepository.Login(System.String,System.String)">
+            <summary>
+            Valida um Usuario de acordo com o e-mail e senha
+            </summary>
+            <param name="email">E-mail do Usuario que deseja fazer o Login</param>
+            <param name="password">Senha do Usuario que deseja fazer o Login</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
